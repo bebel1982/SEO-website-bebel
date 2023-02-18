@@ -5,14 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+ 
+section{
+    display: flex;
+    justify-content: baseline;
+    border: 2px solid red;
+    gap: 5px;
+
+}
+
+ div{ display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;    
+
+}
+
+.p{ border-radius: 20%;
+    margin: 0;
+    right: auto;
+
+        }  
+        
+#text{
+    padding: 10px;
+    text-align: justify;
+}
+
+    </style>
+    
 </head>
 <body>
-    
-    <p>hello test, bonjour comment ca va, bien
+    <h1> tets</h1>
+    <p><strong>test en double</strong></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae at tempora maiores aliquid laudantium velit.</p>
+</body>
 
-        trankil, au calme</p>
-    
-    <img src="image.png" alt="">
-    </body>
+<form action="raphael.php">
+
+<p><label for="username"> username</label></p>
+<input type="text" name="userpw" placeholder="your pw please" required><br/>
+<input type="email" name="usermail" placeholder="email and quick"><br/>
+<p><input type="submit" name="submit" value="submit"/></p>
+
+<textarea name="cpmments"></textarea>
+
+<p><a href="https://developer.mozilla.org/fr/docs/Web/CSS/:lang" target="-blank">link to google</a></p>
+
+<section>
+
+<div>
+<p><img src="black-dog.jpeg" class="p" alt="puppy"></p>
+</div>
+
+<div>
+<p id="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quibusdam blanditiis explicabo!<br/> Impedit nemo voluptate praesentium eaque voluptates ipsam sed laboriosam soluta quisquam sint, recusandae sapiente voluptatem error earum ut.</p>
+</div>
+</section>
+
+
+
+</form>
+
 </html>
